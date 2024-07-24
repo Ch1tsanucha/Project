@@ -1,0 +1,146 @@
+.main-box {
+    background-color: lightblue;
+    width: 800px;
+    height: 350px;
+    border-radius: 5px;
+
+    padding-bottom: 2px;
+
+  
+    transition:  box-shadow 1s;
+}
+
+.main-box:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.content-bg {
+    background-color: white;
+    width: 796px;
+    height: 300px;
+
+    margin-left: 2px;
+    
+
+    border-radius: 10px;
+}
+
+.topic {
+    background-color: lightblue;
+    flex: 1;
+    height: 50px;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  
+}
+
+.button1{
+    height: 30px;
+    margin-left: 20px;
+
+    cursor: pointer;
+
+    color: white;
+    background-color: lightskyblue;
+
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.button2{
+    height: 30px;
+    margin-right: 410px;
+
+    cursor: pointer;
+
+    color: white;
+    background-color: lightblue;
+    border: none;
+}
+.button3 {
+    height: 30px;
+    margin-right: 20px;
+    color: lightskyblue;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+}
+
+.button3 span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 30px; 
+    
+}
+
+.content-bg {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows:  repeat(2,1fr);
+
+   
+}
+
+.grid-item {
+    
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:  1fr 2fr;
+/* 
+    border: 1px solid black; */
+}
+
+select { 
+    position: relative;
+    width: 150px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-bottom: 1px solid gray;
+  
+
+ }
+
+ input[type=text] {
+    padding-left:10px;
+    
+}
+
+.Input {
+    width: 100px;
+    height: 20px;
+    outline: none;
+    border: none;
+}
+
+.Input::placeholder {
+    color: black;
+}
+
+
+.BBOX {
+    display: flex;
+    justify-content: left;
+    width: 90%;
+    height: 25px;
+    margin-left: 10px;
+    border-bottom: 1px solid black;
+    margin-left: 20px;
+  } 
+
+.icon {
+    position: absolute;
+  }
+
+.BBOX span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 25px; 
+}
+
+  
